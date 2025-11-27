@@ -1,0 +1,36 @@
+# General Python artifacts
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.sqlite3
+*.db
+.env
+*.env
+.env.*
+venv/
+.venv/
+
+# FastAPI/coverage outputs
+.coverage
+htmlcov/
+
+# Node/Vite artifacts
+node_modules/
+frontend/node_modules/
+frontend/dist/
+dist/
+.vite/
+frontend/.vite/
+
+# Build caches
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+
+# Local overrides
+frontend/.env
+backend/.env
+logs/
+backend/logs/
