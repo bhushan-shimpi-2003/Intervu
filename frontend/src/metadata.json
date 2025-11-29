@@ -1,0 +1,7 @@
+{
+  "name": "InterVu AI",
+  "description": "An AI-powered interview coaching platform featuring real-time analysis, voice visualization, and detailed performance reports.",
+  "requestFramePermissions": [
+    "microphone"
+  ]
+}

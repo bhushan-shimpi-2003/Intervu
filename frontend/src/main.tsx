@@ -1,7 +1,8 @@
 import React from 'react';
-import ReactDOM from 'react-dom/client';
 import App from './App';
 
-import AppRouter from "./router/AppRouter";
+const AppRouter: React.FC = () => {
+  return <App />;
+};
 
-ReactDOM.createRoot(document.getElementById('root')!).render(<AppRouter />);
+export default AppRouter;
